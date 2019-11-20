@@ -1,7 +1,10 @@
 .bg1{
-    background-color: blueviolet;
+    background-color: #5c08a1;
     width:300px;
-    height: 450px;
+    height: 500px;
     margin-left:520px;
+    color: white;
+}
+.terms{
     color: white;
 }

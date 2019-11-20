@@ -12,10 +12,9 @@ function App() {
      <Router>
       <switch>
         <Route exact path='/' component={Signin}></Route>
-
-         <Route exact path='/Signup' component={Signup}></Route> 
+        <Route exact path='/Signup' component={Signup}></Route> 
         {/* <Route exact path='/Contact' component={Contact}></Route>  */}
-        {/* <Route exact path='/Index' component={Index}></Route> */} */}
+        {/* <Route exact path='/Index' component={Index}></Route> */}
       </switch>
       </Router>
     </div>
