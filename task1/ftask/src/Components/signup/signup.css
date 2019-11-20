@@ -8,3 +8,10 @@
 .terms{
     color: white;
 }
+.last{
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}

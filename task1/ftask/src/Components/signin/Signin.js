@@ -27,7 +27,7 @@ class Signin extends Component {
             <SocialIcon url="http://twitter.com/jaketrent" />
             <SocialIcon url="http://googleplus.com/jaketrent" />
           </div>
-          <div><a href="/signup">signup</a></div>
+          
         </div>
       </div>
     );

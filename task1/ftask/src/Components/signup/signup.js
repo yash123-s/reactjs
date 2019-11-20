@@ -21,6 +21,7 @@ class signup extends Component {
                         <div><button className="btn">login-in</button></div>
                     </div>
                 </div>
+                <div><a className="last" href="/signin">signin</a></div>
             </div>
         );
     }
