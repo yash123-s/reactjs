@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import '../signup/signup.css';
+import Navbar from '../../Navbar/Navbar';
 
 class signup extends Component {
     render() {
         return (
+            <div><Navbar/>
             <div className="bg1">
                 <div>
                     <p className="sign">Signup Form</p>
@@ -22,6 +24,7 @@ class signup extends Component {
                     </div>
                 </div>
                 <div><a className="last" href="/signin">signin</a></div>
+            </div>
             </div>
         );
     }

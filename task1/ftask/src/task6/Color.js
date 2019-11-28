@@ -1,5 +1,6 @@
 import React from 'react';
 import Task from './Task.js';
+import Navbar from '../Navbar/Navbar.js';
 
 class Color extends React.Component {
   constructor(props) {
@@ -16,8 +17,10 @@ class Color extends React.Component {
   }
   render() {
     return (
+      <div>
       <div style={{height: '500px', width: '500px',padding: '50px', backgroundColor: this.state.color}}>
         <Task clickHandler={this.changeColor} currentColor={this.state.color}></Task>
+      </div>
       </div>
     )
     }

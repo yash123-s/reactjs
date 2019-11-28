@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../../Navbar/Navbar';
 
 class Task5 extends Component {
 
@@ -25,6 +26,7 @@ class Task5 extends Component {
     render() {
         return (
             <div>
+                <div><Navbar/></div>
                 <button onClick={this.subtract}>sub</button>
                 <div>{this.state.n1}</div>
                 <button onClick={this.addition}>add</button>
